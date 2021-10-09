@@ -62,8 +62,8 @@ public class CheckstyleFormat extends AbstractMojo {
 
     DebugAuditAdapter auditAdapter = new DebugAuditAdapter();
     Checker checker = new Checker();
-    checker.configure();
     checker.addListener(auditAdapter);
+    checker.addFileSetCheck(new HeaderCheck());
 
     try {
       int process = checker.process(new ArrayList<>(allFilesToBeChecked));

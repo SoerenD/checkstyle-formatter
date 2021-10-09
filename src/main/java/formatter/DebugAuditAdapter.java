@@ -25,7 +25,7 @@ import com.puppycrawl.tools.checkstyle.api.AuditListener;
 import java.util.ArrayList;
 import java.util.List;
 
-final class DebugAuditAdapter implements AuditListener {
+public final class DebugAuditAdapter implements AuditListener {
 
   /**
    * Keeps track whether this {@code AuditListener} was called.
