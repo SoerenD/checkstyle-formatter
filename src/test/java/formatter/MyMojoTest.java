@@ -36,14 +36,5 @@ public class MyMojoTest
         assertNotNull( pom );
         assertTrue( pom.exists() );
     }
-
-    /** Do not need the MojoRule. */
-    @WithoutMojo
-    @Test
-    public void testSomethingWhichDoesNotNeedTheMojoAndProbablyShouldBeExtractedIntoANewClassOfItsOwn()
-    {
-        assertTrue( true );
-    }
-
 }
 
