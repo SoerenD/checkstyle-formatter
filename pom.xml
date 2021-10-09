@@ -19,6 +19,15 @@
     <maven>${maven.version}</maven>
   </prerequisites>
 
+  <developers>
+    <developer>
+      <name>Arne Limburg</name>
+      <email>arne@apache.org</email>
+      <organization>The Apache Software Foundation</organization>
+      <url>https://www.apache.org/</url>
+    </developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
