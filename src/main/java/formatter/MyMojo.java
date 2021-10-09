@@ -14,8 +14,6 @@ import static org.twdata.maven.mojoexecutor.MojoExecutor.version;
 
 import static formatter.ErrorClasses.LEFT_CURLY_CHECK;
 
-import com.puppycrawl.tools.checkstyle.Checker;
-
 import org.apache.maven.execution.MavenSession;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.BuildPluginManager;
